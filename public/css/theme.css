@@ -1,0 +1,77 @@
+/* https://docs.microsoft.com/en-us/windows/uwp/design/style */
+:root {
+  --acc-accent-color: #00838e;
+  --acc-accent-color-light-1: hsl(185, 100%, 43%);
+  --acc-alt-high-color: #fff;
+  --acc-alt-low-color: rgba(255, 255, 255, 0.2);
+  --acc-alt-medium-color: rgba(255, 255, 255, 0.6);
+  --acc-alt-medium-high-color: rgba(255, 255, 255, 0.8);
+  --acc-alt-medium-low-color: rgba(255, 255, 255, 0.4);
+  --acc-base-extra-low-color: rgba(0, 0, 0, 0.1);
+  --acc-base-high-color: #000;
+  --acc-base-low-color: rgba(0, 0, 0, 0.2);
+  --acc-base-medium-color: rgba(0, 0, 0, 0.6);
+  --acc-base-medium-high-color: rgba(0, 0, 0, 0.8);
+  --acc-base-medium-low-color: rgba(0, 0, 0, 0.4);
+  --acc-chrome-alt-low-color: #171717;
+  --acc-chrome-black-high-color: #000;
+  --acc-chrome-black-low-color: rgba(0, 0, 0, 0.2);
+  --acc-chrome-black-medium-color: rgba(0, 0, 0, 0.6);
+  --acc-chrome-black-medium-high-color: rgba(0, 0, 0, 0.8);
+  --acc-chrome-black-medium-low-color: rgba(0, 0, 0, 0.4);
+  --acc-chrome-disabled-high-color: #ccc;
+  --acc-chrome-disabled-low-color: #7a7a7a;
+  --acc-chrome-high-color: #ccc;
+  --acc-chrome-low-color: #f2f2f2;
+  --acc-chrome-medium-color: #e6e6e6;
+  --acc-chrome-medium-low-color: #f2f2f2;
+  --acc-chrome-white-color: #fff;
+  --acc-error-color: #e81123;
+  /* Mostly used for remove/cancel buttons */
+  --acc-cancel-color: #d71526;
+  --acc-list-accent-extra-low-color: rgba(0, 131, 142, 0.2);
+  --acc-list-accent-high-color: rgba(0, 131, 142, 0.7);
+  --acc-list-accent-low-color: rgba(0, 131, 142, 0.4);
+  --acc-list-accent-medium-color: rgba(0, 131, 142, 0.6);
+  --acc-list-high-color: rgba(0, 0, 0, 0.4);
+  --acc-list-low-color: rgba(0, 0, 0, 0.1);
+  --acc-list-medium-color: rgba(0, 0, 0, 0.2);
+
+  --acc-long-duration: 500ms;
+  --acc-medium-duration: 300ms;
+  --acc-short-duration: 167ms;
+  --acc-default-timing: cubic-bezier(0.1, 0.9, 0.2, 1);
+
+  --acc-padding: 16px;
+  --acc-half-padding: calc(0.5 * var(--acc-padding));
+  /* The top and bottom padding of a control */
+  --acc-control-padding: 12px;
+  /* The spacing between two form groups. */
+  --acc-control-group-spacing: 24px;
+
+  --acc-header-font: 46px/56px 'Segoe UI Light';
+  --acc-subheader-font: 34px/40px 'Segoe UI Light';
+  --acc-title-font: 24px/28px 'Segoe UI Semilight';
+  --acc-subtitle-font: 20px/24px 'Segoe UI';
+  --acc-base-font: 16px/20px 'Segoe UI Bold';
+  --acc-body-font: 16px/20px 'Segoe UI';
+  --acc-caption-font: 13px/16px 'Segoe UI';
+}
+
+a,
+a:visited {
+  color: var(--acc-accent-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--acc-base-medium-color);
+}
+a:active {
+  color: var(--acc-base-medium-low-color);
+}
+
+@media all and (min-width: 1001px) {
+  :root {
+    --acc-padding: 24px;
+  }
+}

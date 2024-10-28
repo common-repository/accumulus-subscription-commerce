@@ -1,0 +1,82 @@
+<div class="acc-bank-account-edit-view acc-content">
+
+    <h2 class="acc-title ui-corner-all" localize="bankAccount">Bank Account</h2>
+
+    <form class="acc-bank-account-edit-form" >
+
+        <div class="acc-server-error"></div>
+
+        <fieldset>
+            <label for="acc-bank-account-type" localize="accountType">Account Type</label>
+            <select name="type" id="acc-bank-account-type" class="acc-large-input" required>
+                <option value="CHECKING" localize="checking">Checking</option>
+                <option value="BUSINESSCHECKING" localize="businessChecking">Business checking</option>
+                <option value="SAVINGS" localize="savings">Savings</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-bank-account-bank-name" localize="bankName">Bank Name:</label>
+            <input id="acc-bank-account-bank-name" name="bankName" type="text" class="acc-large-input" required/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-bank-account-routing-number" localize="routingNumber">Routing Number:</label>
+            <input id="acc-bank-account-routing-number" name="routingNumber" type="text" class="acc-large-input" required/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-bank-account-account-number" localize="accountNumber">Account Number:</label>
+            <input id="acc-bank-account-account-number" name="accountNumber" type="text" class="acc-large-input" required/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-bank-account-name" localize="name">Name:</label>
+            <input id="acc-bank-account-name" name="name" type="text" class="acc-large-input" required/>
+        </fieldset>
+
+        <div class="acc-billing-address">
+            <fieldset>
+                <label for="acc-bank-account-company" localize="company">Company:</label>
+                <input id="acc-bank-account-company" name="company" class="acc-large-input" type="text" />
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-bank-account-address1" localize="address1">Address:</label>
+                <input id="acc-bank-account-address1" name="address1" type="text" class="acc-large-input" />
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-bank-account-address2" localize="address2">Address:</label>
+                <input id="acc-bank-account-address2" name="address2" type="text" class="acc-large-input" />
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-bank-account-edit-city" localize="city">City:</label>
+                <input id="acc-bank-account-edit-city" name="city" type="text" class="acc-large-input" />
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-bank-account-edit-state" localize="state">State:</label>
+                <select id="acc-bank-account-edit-state" name="state" class="acc-large-input"></select>
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-bank-account-edit-postal-code" localize="postalCode">Postal Code:</label>
+                <input id="acc-bank-account-edit-postal-code" name="postalCode" type="text" required class="acc-large-input" />
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-bank-account-edit-country" localize="country">Country:</label>
+                <select id="acc-bank-account-edit-country" name="country" class="acc-large-input"></select>
+            </fieldset>
+        </div>
+
+        <div class="acc-controls">
+            <input type="submit" class="acc-save" localize="save" value="Save" />
+            <input type="button" class="acc-cancel" localize="cancel" value="Cancel" />
+        </div>
+
+    </form>
+
+</div>

@@ -1,0 +1,24 @@
+<div class="acc-make-payment-view acc-content ui-corner-all">
+
+    <h2 class="acc-widget-title acc-title ui-corner-all" localize="makePayment">Make Payment</h2>
+
+    <div class="acc-server-error ui-state-error ui-corner-all"></div>
+
+    <form class="acc-make-payment-form">
+
+        <fieldset>
+            <label for="acc-make-payment-amount" class="acc-description-label" localize="amount:">Amount:</label>
+            <input name="amount" id="acc-make-payment-amount" type="text" class="acc-payment-amount acc-medium-input" required/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-make-payment-payment-method" class="acc-description-label" localize="paymentMethod:"></label>
+            <select name="paymentMethod" id="acc-make-payment-payment-method" class="acc-payment-method acc-large-input" ></select>
+        </fieldset>
+
+        <div class="acc-controls">
+            <input type="submit" class="acc-submit-payment ui-button-primary" localize="makePayment" data-inline="true"/>
+        </div>
+    </form>
+
+</div>

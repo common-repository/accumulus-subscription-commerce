@@ -1,0 +1,175 @@
+/*******************
+*** Global *********
+********************/
+
+/* Top Parent of every accumulus widget. */
+.acc-widget{}
+
+/* The title in the main view of every widget. */
+.acc-widget-title{}
+
+/* Any main title in any widget. */
+h2.acc-title{}
+
+/* Widget titles. */
+.acc-title{}
+
+/* jQuery UI Header, Accumulus UI only.  */
+.ui-widget-header{}
+
+/* Content container, Accumulus UI only.  */
+.acc-content{}
+
+/* jQuery UI rounded corners elements, Accumulus UI only.  */
+.ui-corner-all{}
+
+/* jQuery Mobile Content, Accumulus Mobile only.  */
+.ui-content{}
+
+/*Server error wrapper, usually shows at the beginning of a form. */
+.acc-server-error{}
+
+/* jQuery UI Error msg, Accumulus UI only. */
+.ui-state-error{}
+
+/*Wrapper of buttons usually at the end of a form/view. */
+.acc-controls{}
+
+/*Loading image shown when doing Ajax requests.*/
+.acc-loader{}
+
+/*Any label used to describe an input from a form. Usually surrounded by a fieldset.*/
+.acc-description-label{}
+
+/*Any text input. */
+/*.acc-text-input{}*/
+
+/*Any select input. */
+/*.acc-select{}*/
+
+/*Inputs used inside forms, like text-inputs, selects, etc. , Accumulus UI only. */
+.acc-small-input{} /*Meant to hold very small data like age or cvv from a credit card. */
+.acc-medium-input{} /*Meant to hold a decent sized data bigger than small input. */
+.acc-large-input{} /*Meant to occupy as much space of the line as possible, for large data texts. */
+
+/*Validation error messages thrown by a form, Accumulus UI only. */
+.acc-widget .error.ui-state-highlight{}
+
+/*JQuery Mobile Grids, Accumulus Mobile only.*/
+.ui-grid-a{}
+.ui-block-a{}
+.ui-block-b{}
+
+/*Jquery Mobile field wrappers used mostly on fieldset components, Accumulus Mobile only. */
+.ui-field-contain{}
+
+/*Jquery Mobile class to hide labels from form inputs, used with the placeholder property from inputs, Accumulus Mobile only. */
+.ui-hide-label{}
+
+
+/********************************
+*** Make Payment Widget *********
+*********************************/
+.acc-make-payment{}
+
+.acc-make-payment-view{}
+.acc-make-payment-form{}
+.acc-make-payment-form fieldset .acc-payment-amount{}
+.acc-make-payment-form fieldset .acc-payment-method{}
+.acc-make-payment-form fieldset .acc-submit-payment{}
+
+.acc-payment-applied-view{}
+.acc-payment-applied-msg{}
+
+/********************************
+*** Make Balance Widget *********
+*********************************/
+.acc-balance{}
+.acc-balance-view{}
+.acc-current-balance{}
+
+/********************************
+*** Make Portal Widget *********
+*********************************/
+.acc-portal-header{}
+.acc-header-logo{}
+.acc-header-text{}
+.acc-logout{}
+
+.acc-portal-content{}
+
+.acc-login-form{}
+.acc-username{}
+.acc-password{}
+.acc-login{}
+.acc-forgot-password{}
+
+.acc-reset-password-form{}
+.acc-username{}
+.acc-captcha-field{}
+.acc-captcha-img{}
+.acc-captcha-text{}
+.acc-get-captcha{}
+.acc-reset-password{}
+.acc-cancel{}
+
+.acc-widget-list{}
+
+.acc-portal-menu{} /*Accumulus UI only. */
+.acc-balance-selection{}
+.acc-profile-selection{}
+.acc-payment-methods-selection{}
+.acc-subscriptions-list-selection{}
+.acc-statement-history-selection{}
+.acc-usage-balances-selection{}
+.acc-usage-history-selection{}
+.acc-make-payment-selection{}
+.acc-widget-selected{} /*Accumulus UI only. */
+
+.acc-plugin-container{}
+
+.acc-customer-name{} /*Accumulus UI only. */
+
+
+/********************************
+*** Signup Widget ***************
+*********************************/
+.acc-signup{}
+
+.acc-signup-view{}
+
+.acc-price-grid{}
+.acc-signup-description{}
+.acc-signup-pricing{}
+.acc-price-details{}
+.acc-signup-fees{}
+.acc-signup-fees-value{}
+.acc-signup-discounts{}
+.acc-signup-discounts-value{}
+.acc-signup-taxes{}
+.acc-signup-taxes-value{}
+.acc-signup-total{}
+.acc-signup-total-value{}
+.acc-promotion-form{}
+.acc-promotion-msg{}
+
+.acc-signup-form{}
+.acc-account-information{}
+.acc-account-banner{}
+.acc-account-form{}
+.acc-name{}
+.acc-password{}
+.acc-email{}
+.acc-address{}
+.acc-postal-code{}
+.acc-city{}
+.acc-state{}
+.acc-country{}
+.acc-copy-address{}
+
+.acc-payment-information{}
+.acc-ssl-banner{}
+.acc-payment-forms{}
+.acc-credit-card-collapsible{}/*only mobile?*/
+
+

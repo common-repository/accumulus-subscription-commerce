@@ -1,0 +1,97 @@
+<div class="acc-credit-card-edit-view ui-content acc-content">
+
+    <h2 class="acc-title ui-corner-all" localize="creditCard">Credit Card</h2>
+
+    <form class="acc-credit-card-edit-form" >
+
+        <div class="acc-server-error"></div>
+
+        <div class="acc-credit-card-imgs">
+            <img class="acc-card-mastercard-img" />
+            <img class="acc-card-visa-img" />
+            <img class="acc-card-discover-img" />
+            <img class="acc-card-amex-img" />
+        </div>
+        <fieldset>
+            <label for="acc-credit-card-edit-number" localize="number">Card Number:</label>
+            <input id="acc-credit-card-edit-number" name="number" type="text" required class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset class="acc-expiration-date-field">
+            <label class="acc-expiration-date-label">Expiration Date:</label>
+            <div class="acc-expiration-date-inputs">
+                <label class="acc-month-label" for="acc-credit-card-edit-month">Month</label>
+                <select name="month" id="acc-credit-card-edit-month" class="acc-month acc-small-input" required>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <span localize=" / "></span>
+                <label class="acc-year-label" for="acc-credit-card-edit-year">Year</label>
+                <select name="year" id="acc-credit-card-edit-year" class="acc-year acc-small-input" required></select>
+            </div>
+        </fieldset>
+
+        <fieldset class="acc-cvv-field">
+            <label for="acc-credit-card-cvv" localize="cvv">CVV:</label>
+            <input id="acc-credit-card-cvv" name="cvv" type="text" class="acc-small-input"/>
+            <img class="acc-cvv-img" />
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-credit-card-name" localize="name">Name:</label>
+            <input id="acc-credit-card-name" name="name" type="text" required class="acc-large-input"/>
+        </fieldset>
+
+        <div class="acc-billing-address">
+            <fieldset>
+                <label for="acc-credit-card-company" localize="company">Company:</label>
+                <input id="acc-credit-card-company" name="company" class="acc-large-input" type="text" />
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-credit-card-address1" localize="address1">Address:</label>
+                <input id="acc-credit-card-address1" name="address1" type="text" class="acc-large-input"/>
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-credit-card-address2" localize="address2">Address:</label>
+                <input id="acc-credit-card-address2" name="address2" type="text" class="acc-large-input"/>
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-credit-card-edit-city" localize="city">City:</label>
+                <input id="acc-credit-card-edit-city" name="city" type="text" class="acc-large-input"/>
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-credit-card-edit-state" localize="state">State:</label>
+                <select id="acc-bank-account-edit-state" name="state" class="acc-large-input"></select>
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-credit-card-edit-postal-code" localize="postalCode">Postal Code:</label>
+                <input id="acc-credit-card-edit-postal-code" name="postalCode" type="text" required class="acc-large-input"/>
+            </fieldset>
+
+            <fieldset>
+                <label for="acc-credit-card-edit-country" localize="country">Country:</label>
+                <select id="acc-credit-card-edit-country" name="country" class="acc-large-input" ></select>
+            </fieldset>
+        </div>
+
+        <div class="acc-controls">
+            <input type="submit" name="save" localize="save" value="Save" class="acc-save"/>
+            <input type="button" name="cancel" localize="cancel" value="Cancel" class="acc-cancel"/>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,66 @@
+/** Mobile first */
+
+:root {
+  --acc-padding: 24px;
+}
+body {
+  overflow-y: auto; /* fallback */
+  overflow-y: overlay;
+}
+#inner {
+  background-color: #fff; /* fallback */
+  background-color: var(--acc-alt-high-color);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 12px 0; /* fallback */
+  padding: var(--acc-control-padding) 0;
+  width: 100%;
+  max-width: 400px;
+  min-height: 100vh;
+}
+header {
+  padding: 12px 24px; /* fallback */
+  padding: var(--acc-control-padding) var(--acc-padding);
+}
+#logo {
+  height: 24px;
+}
+main {
+  flex: 1;
+  min-height: 200px;
+}
+footer {
+  padding: 12px 24px 0; /* fallback */
+  padding: var(--acc-control-padding) var(--acc-padding) 0;
+}
+footer a {
+  /* fallback */
+  color: #00838e;
+  text-decoration: none;
+  font: 13px/16px sans-serif;
+
+  display: inline-block;
+  font: var(--acc-caption-font);
+}
+
+.acc-unsupported-browser {
+  font: 16px/20px sans-serif;
+  padding: 24px;
+}
+.acc-unsupported-browser > h2 {
+  margin-top: 0;
+}
+
+@media all and (min-width: 601px) {
+  body {
+    background-color: #555;
+  }
+  #outer {
+    padding: 72px 0;
+  }
+  #inner {
+    max-width: 400px;
+    min-height: 0;
+  }
+}

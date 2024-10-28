@@ -1,0 +1,66 @@
+.kin-button {
+  border: 2px solid transparent;
+  outline: 2px solid transparent;
+  cursor: default;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: none;
+  -webkit-touch-callout: none;
+  background-color: var(--acc-base-low-color);
+  transition: transform 167ms;
+}
+
+.kin-button:focus {
+  border-color: transparent;
+  outline-color: var(--acc-base-high-color);
+}
+
+.kin-button:hover {
+  border-color: var(--acc-base-medium-low-color);
+}
+
+.kin-button:active,
+.kin-button:hover:active {
+  background-color: var(--acc-base-medium-color);
+  border-color: transparent;
+  outline-color: transparent;
+  transform: scale(0.97);
+}
+
+.kin-button.primary {
+  background-color: var(--acc-accent-color);
+  color: white;
+}
+
+.kin-button.primary:hover {
+  background-color: var(--acc-accent-color-light-1);
+}
+
+.kin-button.primary:active,
+.kin-button.primary:hover:active {
+  background-color: black;
+}
+
+.kin-button[disabled],
+.kin-button[disabled]:hover,
+.kin-button[disabled]:active {
+  background-color: var(--acc-chrome-disabled-high-color);
+  border-color: transparent;
+  outline-color: transparent;
+  color: var(--acc-chrome-disabled-low-color);
+}
+
+.kin-button.no-background {
+  background-color: transparent !important;
+  border-color: transparent;
+  cursor: pointer;
+  min-width: 0;
+  outline-offset: -2px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.kin-button > kin-icon + span {
+  margin-left: 0.5em;
+}

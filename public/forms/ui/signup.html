@@ -1,0 +1,228 @@
+<div class="acc-signup-view ui-corner-all acc-content">
+    <div class="acc-split-content ui-helper-clearfix">
+        <div class="acc-signup-description"></div>
+        <div class="acc-price-grid">
+            <div class="acc-signup-pricing">
+                <div class="acc-price-details acc-split-children-content ui-corner-all">
+                    <div class="acc-signup-fees ui-helper-clearfix">
+                        <div localize="fees:"></div>
+                        <div class="acc-signup-fees-value"></div>
+                    </div>
+                    <div class="acc-signup-discounts ui-helper-clearfix">
+                        <div localize="discounts:"></div>
+                        <div class="acc-signup-discounts-value"></div>
+                    </div>
+                    <div class="acc-signup-taxes ui-helper-clearfix">
+                        <div localize="taxes:"></div>
+                        <div class="acc-signup-taxes-value"></div>
+                    </div>
+                    <div class="acc-signup-total ui-helper-clearfix">
+                        <div localize="total:"></div>
+                        <div class="acc-signup-total-value"></div>
+                    </div>
+                </div>
+                <form class="acc-promotion-form">
+                    <p class="acc-promotion-field">
+                        <label localize="promotion"></label>
+                        <input name="promotion" type="text" class="acc-promotion-code" placeholder="coupon code" />
+                        <button type="submit" name="apply" class="acc-apply" localize="apply" />
+                    </p>
+                    <div class="acc-promotion-msg"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="acc-server-error ui-state-error ui-corner-all"></div>
+
+    <form class="acc-signup-form">
+        <div class="acc-subscription-information">
+        </div>
+        <div class="acc-account-information">
+            <div class="acc-account-banner acc-title">
+              <div>
+                <span class="ui-icon ui-icon-person"></span>
+                <h3 class="" localize="accountInformation">Signup Information</h3>
+              </div>
+            </div>
+            <div class="acc-account-form">
+                <p>
+                    <label for="acc-signup-name" class="acc-description-label" localize="name">Name:</label>
+                    <input id="acc-signup-name" name="name" type="text" class="acc-name acc-extended-input" required />
+                </p>
+                <p>
+                    <label for="acc-signup-email" class="acc-description-label" localize="email">Email:</label>
+                    <input id="acc-signup-email" name="email" type="text" class="acc-email acc-extended-input" required />
+                </p>
+                <div class="acc-customer-phone ui-helper-clearfix">
+                    <p>
+                        <label for="acc-customer-phone" class="acc-description-label" localize="phone">Phone:</label>
+                        <input id="acc-customer-phone" name="phone" type="text" class="acc-customer-phone" />
+                    </p>
+                </div>
+                <div class="acc-customer-address ui-helper-clearfix">
+                   <p>
+                        <label for="acc-company" class="acc-description-label" localize="company">Company:</label>
+                        <input id="acc-company" name="company" type="text" class="acc-company" />
+                   </p>
+                    <p>
+                        <label for="acc-signup-address1" class="acc-description-label" localize="address">Address:</label>
+                        <input id="acc-signup-address1" name="address" type="text" class="acc-address acc-extended-input" required />
+                    </p>
+                    <p class="acc-left-field">
+                        <label for="acc-signup-city" class="acc-description-label" localize="city">City:</label>
+                        <input id="acc-signup-city" name="city" type="text" value="" class="acc-city acc-extended-input" required />
+                    </p>
+                    <p class="acc-right-field">
+                        <label for="acc-signup-state" class="acc-description-label" localize="state">State:</label>
+                        <select id="acc-signup-state" name="state" class="acc-state acc-extended-input" required></select>
+                    </p>
+                    <p class="acc-left-field">
+                        <label for="acc-signup-postal-code" class="acc-description-label" localize="postalCode">Postal Code:</label>
+                        <input id="acc-signup-postal-code" name="postalCode" type="text" class="acc-postal-code acc-extended-input" required />
+                    </p>
+                    <p class="acc-right-field">
+                        <label for="acc-signup-country" class="acc-description-label" localize="country">Country:</label>
+                        <select id="acc-signup-country" name="country" class="acc-country acc-extended-input" required></select>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="acc-tax-information">
+            <div class="acc-title">
+                <h3 localize="taxInformation">Tax/VAT Number (Optional)</h3>
+            </div>
+            <div class="acc-tax-form">
+                <p>
+                    <label for="acc-signup-tax-number" class="acc-description-label" localize="taxNumber">Tax / Vat Identifier:</label>
+                    <input id="acc-signup-tax-number" name="taxNumber" type="text" class="acc-tax-number acc-extended-input" />
+                </p>
+            </div>
+        </div>
+        <div class="acc-payment-information">
+            <div class="acc-ssl-banner acc-title">
+            </div>
+            <div class="acc-payment-forms">
+                <button class="acc-credit-card-header acc-header" localize="creditCard">Credit Card</button>
+                <div class="acc-credit-card-collapsible">
+                    <div class="acc-credit-card-imgs">
+                    </div>
+                    <div class="acc-credit-card-form">
+                        <p>
+                            <label for="acc-signup-cc-number" class="acc-description-label" localize="number">Card Number:</label>
+                            <input id="acc-signup-cc-number" name="ccNumber" type="text" required class="acc-credit-card-number" />
+                        </p>
+
+                        <p class="acc-expiration-date-field acc-left-field">
+                            <label class="acc-expiration-date-label" localize="expirationDate">Expiration Date:</label>
+                            <label for="acc-signup-cc-month" localize="month">Month</label>
+                            <select name="month" id="acc-signup-cc-month" class="acc-month acc-small-input" required>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <span localize=" / "></span>
+                            <label for="acc-signup-cc-year" localize="year">Year</label>
+                            <select name="year" id="acc-signup-cc-year" class="acc-year acc-small-input" required></select>
+                        </p>
+
+                        <p class="acc-cvv-p acc-right-field">
+                            <label for="acc-signup-cc-cvv" class="acc-description-label" localize="cvv">CVV:</label>
+                            <input id="acc-signup-cc-cvv" name="cvv" type="text" class="acc-cvv acc-small-input" required />
+                            <img class="acc-cvv-image" />
+                        </p>
+
+                        <p>
+                            <label for="acc-signup-cc-name" class="acc-description-label" localize="name">Name:</label>
+                            <input id="acc-signup-cc-name" name="ccName" type="text" class="acc-name" required />
+                        </p>
+                    </div>
+                </div>
+                <button class="acc-bank-account-header acc-header" localize="bankAccount">Bank Account</button>
+                <div class="acc-bank-account-collapsible">
+                    <div class="acc-bank-account-form">
+
+                        <img class="acc-bank-account-img" />
+
+                        <p style="display: none">
+                            <input id="acc-bank-account-allow-empty" type="checkbox" />
+                            <label for="acc-bank-account-allow-empty" class="acc-description-label" localize="bankAccountInfoLater">I will provide bank account information later.</label>
+                        </p>
+
+                        <p>
+                            <label for="acc-bank-account-type" class="acc-description-label" localize="accountType">Account Type</label>
+                            <select name="type" id="acc-bank-account-type" class="acc-bank-account-type" required>
+                                <option value="CHECKING" localize="checking">Checking</option>
+                                <option value="BUSINESSCHECKING" localize="businessChecking">Business checking</option>
+                                <option value="SAVINGS" localize="savings">Savings</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="acc-bank-account-bank-name" class="acc-description-label" localize="bankName">Bank Name:</label>
+                            <input id="acc-bank-account-bank-name" name="bankName" type="text" class="acc-bank-name" required />
+                        </p>
+
+                        <p>
+                            <label for="acc-bank-account-routing-number" class="acc-description-label" localize="routingNumber">Routing Number:</label>
+                            <input id="acc-bank-account-routing-number" name="routingNumber" type="text" class="acc-routing-number" required />
+                        </p>
+
+                        <p>
+                            <label for="acc-bank-account-account-number" class="acc-description-label" localize="accountNumber">Account Number:</label>
+                            <input id="acc-bank-account-account-number" name="accountNumber" type="text" class="acc-account-number" required />
+                        </p>
+
+                        <p>
+                            <label for="acc-bank-account-name" class="acc-description-label" localize="name">Name:</label>
+                            <input id="acc-bank-account-name" name="bankAccountName" type="text" class="acc-name" required />
+                        </p>
+                    </div>
+                </div>
+                <button id="item-1" class="acc-billing-agreement-header acc-header" localize="billingAgreement">Paypal</button>
+                <div class="acc-billing-agreement-collapsible">
+                    <div class="acc-billing-agreement-form">
+                        <div>
+                            <img class="acc-paypal-img" />
+                        </div>
+                        <span localize="youWillBeRedirected"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="acc-signup-recaptcha"/>
+            <div class="acc-tc-field">
+                <input class="acc-tc-checkbox" type="checkbox" id="acc-signup-tc">
+                <span class="acc-tc-msg" for="acc-signup-tc" localize="termsAndConditions">YOU ACKNOWLEDGE THAT YOU HAVE READ THE TERMS AND CONDITIONS AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY IT.</span>
+            </div>
+        </div>
+        <div class="acc-controls">
+            <input type="submit" class="acc-subscribe-submit ui-button-primary" localize="subscribe" />
+        </div>
+    </form>
+
+    <div class="acc-tc-reminder acc-modal">
+        <div>
+            <p localize="youMustAcknowledge">You must acknowledge and agree to the terms and conditions to subscribe.</p>
+            <div class="acc-controls ">
+                <input type="button" class="acc-close" value="Ok" localize="OK" />
+            </div>
+        </div>
+    </div>
+    <div class="acc-must-select-payment-method acc-modal">
+        <div>
+            <p localize="mustSelectAPaymentMethod">You must select a payment method.</p>
+            <div class="acc-controls">
+                <input type="button" class="acc-close" value="Ok" localize="OK" />
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,368 @@
+{
+    "profile": {
+        "profile": "Perfil",
+        "name": "Nombre",
+        "name:": "Nombre:",
+        "email:": "Email:",
+        "phone:": "Telefono:",
+        "address:": "Direccion:",
+        "edit": "Modificar",
+        "home": "casa",
+        "fax": "fax",
+        "cellphone": "celular",
+        "work": "oficina",
+
+        "company": "Compañia",
+        "title": "Titulo",
+        "email": "Email",
+        "password": "Contraseña",
+        "work-number": "Telefono Oficina",
+        "home-number": "Telefono Casa",
+        "FAX": "FAX",
+        "mobile": "Celular",
+        "address1": "Direccion",
+        "address2": "Direccion",
+        "city": "Ciudad",
+        "postal-code": "Codigo Postal",
+        "state": "Estado/Provincia",
+        "country": "Pais",
+        "url": "URL",
+        "selectState": "Selecciona un estado",
+        "currentpassword": "Contraseña actual",
+        "newpassword1": "Nueva contraseña",
+        "newpassword2": "Nueva contraseña",
+        "change": "Cambiar",
+        "changePassword": "Cambiar Contraseña",
+
+        "save": "Guardar",
+        "cancel": "Cancelar"
+    },
+
+    "statementHistory": {
+        "adjustments": "Ajustes",
+        "currentBalance": "Saldo Actual",
+        "date": "Fecha",
+        "fees": "Los Honorarios",
+        "noStatements": "No existen estados de cuenta.",
+        "number": "Numero",
+        "payments": "Pagos",
+        "previousBalance": "Saldo Anterior",
+        "statements": "Estados de Cuenta"
+    },
+
+    "balance": {
+        "balance": "Saldo",
+        "currentBalance:": "Saldo actual:"
+    },
+
+    "subscriptionList": {
+        "subscriptions": "Suscripciones",
+        "id": "ID",
+        "offer": "Oferta",
+        "status": "Estatus",
+        "Active": "Activo",
+        "startDate": "Fecha de Inicio",
+        "Columns...": "Columnas...",
+        "noSubscriptions": "No existen subscripciones.",
+        "noSubscriptionItems": "No existen articulos de la subscripcion.",
+
+        "subscription": "Suscripción",
+        "id:": "ID:",
+        "offer:": "Oferta:",
+        "promotionName:": "Nombre de la promocion:",
+        "status:": "Status:",
+        "startDate:": "Fecha de Inicio:",
+        "freeTrialEnd:": "Fin periodo de prueba:",
+        "subscriptionItem(s):": "Articulos de la Subscripcion:",
+        "itemID": "ID Articulo",
+        "ok": "OK",
+        "return": "Regresar",
+        "cancelSubscription": "Cancelar Subscripcion",
+        "name": "Nombre",
+
+        "confirmSubscriptionCancel": "¿Estas seguro que deseas cancelar esta suscripcion?",
+        "noFields": "No extra info.",
+
+        "productCode": {
+            "TEST_PRODUCT": "Test Product",
+            "SAAS_PRO": "SAAS Pro",
+            "PORTAL": "Portal",
+            "SALES_PORTAL": "Portal de ventas"
+        },
+
+        "productFieldCode": {
+            "USERS": "Usuarios",
+            "USER_LICENSES": "Licencias de Usuario",
+            "EMPTY_PRODUCT_FIELD": "Campo de producto vacio"
+        }
+    },
+
+    "usageHistory": {
+        "usageHistory": "Historial de Uso",
+        "date": "Fecha",
+        "type": "Tipo",
+        "quantity": "Cantidad",
+        "next": "Siguientes",
+        "previous": "Anteriores",
+        "noUsages": "No existen usos.",
+
+        "usageDetails": "Detalles:",
+        "startDate:": "Fecha de inicio:",
+        "quantity:": "Cantidad:",
+        "usageType:": "Tipo:",
+        "subscriptionID:": "ID Subscripcion:",
+        "subscriptionItemID:": "ID Articulo de la Subscription:",
+        "ok": "OK",
+
+        "typeCodes": {
+            "SUPPORT_TIME": "Tiempo de Soporte",
+            "USER_LICENSES": "Licencias de Usuario"
+        }
+    },
+
+    "usageBalances": {
+        "usageBalances": "Saldos de Uso",
+        "type:": "Tipo:",
+        "paidBalance:": "Saldo de pago:",
+        "giftBalance:": "Saldo de regalo:",
+        "noBalances": "No existen saldos de uso.",
+
+        "usageTypeCodes": {
+            "TEST_USAGE_TYPE": "Tipo de uso de prueba",
+            "SUPPORT_TIME": "Tiempo de soporte",
+            "USER_LICENSES": "Licencias de Usuario"
+        }
+    },
+
+    "paymentMethods": {
+        "paymentMethods": "Metodos de Pago",
+
+        "type": "Type",
+        "name": "Nombre",
+        "delete": "Borrar",
+        "default": "Predeterminado",
+        "defaultPaymentMethod": "Metodo de pago predeterminado",
+        "setAsDefault": "Hacer Predeterminado",
+        "add": "Agregar",
+        "edit": "Modificar",
+        "expires": "Expira",
+        "endingIn": "con terminacion en",
+
+        "creditCards": "Tarjetas de Credito",
+        "bankAccounts": "Cuentas de Banco",
+        "billingAgreements": "Acuerdos de facturación",
+
+        "noCreditCards": "No hay tarjetas de credito.",
+        "noBankAccounts": "No hay cuentas de banco.",
+        "noBillingAgreements": "No hay acuerdos de facturación.",
+
+        "creditCard": "Tarjeta de Credito",
+        "number": "Numero de tarjeta",
+        "cvv": "CVV",
+        "expirationDate": "Fecha de expiración",
+        "address1": "Direccion linea 1",
+        "address2": "Direccion linea 2",
+        "city": "Ciudad",
+        "state": "Estado",
+        "postalCode": "Codigo Postal",
+        "country": "País",
+
+        "accountType": "Tipo de cuenta",
+        "bankAccount": "Cuenta de Banco",
+        "bankName": "Banco",
+        "routingNumber": "Numero de enrutamiento",
+        "accountNumber": "Numero de cuenta",
+        "company": "Compañía",
+
+        "typeRequired": "Tipo de tarjeta requerido",
+        "bankNameRequired": "Nombre del Banco requerido",
+        "routingNumberRequired": "Numero de enrutamiento requerido",
+        "accountNumberRequired": "Numero de cuenta requerido",
+        "nameRequired": "Nombre requerido",
+        "countryRequired": "Pais requerido",
+
+        "CHECKING": "Cheques",
+        "BUSINESSCHECKING": "Cheques de Negocio",
+        "SAVINGS": "Ahorros",
+
+        "checking": "Cheques",
+        "businessChecking": "Cheques de Negocio",
+        "savings": "Ahorros",
+
+        "save": "Guardar",
+        "cancel": "Cancelar",
+
+        "confirmDeleteCC": "¿Estas seguro que deseas borrar esta tarjeta de credito?",
+        "confirmDeleteBA": "¿Estas seguro que deseas borrar esta cuenta de banco?",
+        "confirmDeletePP": "¿Estas seguro que deseas borrar esta cuenta de paypal?"
+    },
+
+    "makePayment": {
+        "makePayment": "Hacer Pago",
+        "amount": "Cantidad",
+        "amount:": "Cantidad:",
+        "paymentMethod:": "Metodo de Pago:",
+        "amountRequired": "Debes especificar una cantidad.",
+        "paymentApplied": "El pago ha sido aplicado.",
+        "endingIn": "con terminacion en"
+    },
+
+    "signup": {
+        "signup": "Registrarse",
+        "signupFor": "Seleccionaste suscribirte a ",
+        "fees:": "Cargos:",
+        "discounts:": "Descuentos:",
+        "taxes:": "Intereses:",
+        "total:": "Total:",
+        "promotion": "Promocion",
+        "apply": "Aplicar",
+
+        "expirationDate": "Expira",
+        "promoRequired": "Codigo de promocion requerido",
+
+        "accountInformation": "Informacion de la cuenta",
+
+        "name": "Nombre",
+        "password": "Contraseña",
+        "email": "Email",
+        "address": "Direccion",
+        "postalCode": "Codigo Postal",
+        "city": "Ciudad",
+        "state": "Estado/Provincia",
+        "country": "Pais",
+        "selectState": "Selecciona un estado",
+        "encryptedConnection": "Conexión de pago encriptada por SSL",
+        "creditCard": "Tarjeta de Credito",
+        "bankAccount": "Cuenta de Banco",
+        "billingAgreement": "Paypal",
+
+        "youWillBeRedirected": "Seras dirigido a la pagina de Paypal para completar tus datos.",
+
+        "number": "Numero de tarjeta",
+        "cvv": "CVV",
+        "month": "Mes",
+        "year": "Año",
+
+        "bankAccountInfoLater": "Voy a ofrecer información de la cuenta bancaria después.",
+        "bankName": "Banco",
+        "routingNumber": "Numero de enrutamiento",
+        "accountNumber": "Numero de cuenta",
+        "company": "Compañía",
+        "checking": "Cheques",
+        "businessChecking": "Cheques de Negocio",
+        "savings": "Ahorros",
+        "accountType": "Tipo de cuenta",
+
+        "termsAndConditions": "Reconoce haber leido, entendido y aceptado el Acuerdo de Terminos y Condiciones.",
+        "useAddressForBilling": "Usar la misma direccion como direccion de facturacion.",
+        "youMustAcknowledge": "Debes reconocer y aceptar los términos y condiciones para suscribirte",
+        "termsAndConditionsTitle": "Terminos y Condiciones",
+        "OK": "Aceptar",
+        "subscribe": "Suscribirse",
+
+        "nameRequired": "Nombre es requerido",
+        "nameMinLength3": "Debe tener al menos 3 caracteres.",
+        "passwordRequired": "Contraseña requerida",
+        "oneDigitRequired": "La contraseña debe contener al menos un numero",
+        "minSevenCharsLength": "La contraseña debe contener al menos 7 characteres",
+        "oneSpecialChar": "La contraseña debe contener al menos 1 caracter especial",
+        "emailRequired": "Email es requerido",
+        "notEmailFormat": "Formato de email incorrecto",
+        "addressRequired": "Direccion es requerida",
+        "postalCodeRequired": "Codigo Postal es requerido",
+        "cityRequired": "Ciudad es requerida",
+        "stateRequired": "Estado es requerido",
+        "countryRequired": "Pais es requerido",
+        "cardNumberRequired": "Numero de Tarjeta requerido",
+        "incorrectCardNumber": "Numero de tarjeta incorrecto",
+        "expirationDateRequired": "La fecha de expiracion es requerida",
+        "cvvRequired": "CVV es requerido",
+        "cvvMinLength3": "3 caracteres minimo.",
+        "cvvMaxLength4": "4 caracteres maximo.",
+        "bankNameRequired": "Nombre de Banco es requerido",
+        "routingNumberRequired": "Numero de ruta es requerido",
+        "accountNumberRequired": "Numero de cuenta requerido",
+
+        "selectPaymentMethod": "Selecciona un metodo de pago.",
+        "mustSelectAPaymentMethod": "Debes seleccionar un metodo de pago.",
+
+        "selectValue": "Por favor selecciona un valor",
+        "completionText": "Sign up completed."
+    },
+
+    "portal": {
+        "changePassword": "Se requiere cambiar de Password",
+        "newpassword1": "Nueva contraseña",
+        "newpassword2": "Nueva contraseña",
+        "change": "Cambiar",
+        "selectWidget": "Selecciona un widget de la izquierda.",
+        "usernameRequired": "Nombre de usuario requerido",
+        "captchaRequired": "Escribe lo que ves en la imagen",
+        "passwordRequired": "Contraseña requerida",
+        "profile": "Perfil",
+        "subscriptionsList": "Lista de suscripciones",
+        "statementsHistory": "Estados de cuenta",
+        "balance": "Saldo",
+        "usageHistory": "Historial de uso",
+        "usageBalances": "Saldos de uso",
+        "paymentMethods": "Metodos de pago",
+        "makePayment": "Hacer pago",
+        "login": "Acceder",
+        "logout": "Cerrar Sesion",
+        "username": "Nombre de Usuario",
+        "password": "Contraseña",
+        "forgotPassword": "Olvidaste tu Contraseña?",
+        "resetPassword": "Inicializar contraseña",
+        "reset": "Inicializar",
+        "cancel": "Cancelar",
+        "captcha": "Ingresa las palabras de la imagen"
+    },
+
+    "offer": {
+        "signup": "Suscribirse"
+    },
+
+    "general": {
+        "yes": "Si",
+        "no": "No",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "areYouSure?": "¿Estas seguro?",
+        "confirmDelete": "¿Estas seguro que deseas borrar este registro?",
+        "confirmDefault": "¿Deseas que este sea tu metodo de pago predeterminado?",
+        "fieldRequired": "Campo Requerido",
+        "nameRequired": "Nombre es requerido",
+        "cvvRequired": "CVV es requerido",
+        "emailRequired": "Email es requerido",
+        "postalCodeRequired": "Codigo Postal es requerido",
+        "expirationDate": "La fecha de expiracion es requerida",
+        "cardNumberRequired": "Numero de Tarjeta requerido",
+        "notEmailFormat": "Formato de email incorrecto",
+        "currentPasswordRequired": "Contraseña actual requerida",
+        "newPasswordRequired": "Nueva contraseña requerida",
+        "passwordRequired": "Contraseña requerida",
+        "oneDigitRequired": "La contraseña debe contener al menos un numero",
+        "minSevenCharsLength": "La contraseña debe contener al menos 7 characteres",
+        "creditcard": "Numero de tarjeta incorrecto",
+        "oneSpecialChar": "La contraseña debe contener al menos 1 caracter especial",
+        "addressRequired": "Direccion es requerida",
+        "cityRequired": "Ciudad es requerida",
+        "stateRequired": "Estado es requerido",
+        "countryRequired": "Pais es requerido",
+        "bankNameRequired": "Nombre de Banco es requerido",
+        "routingNumberRequired": "Numero de ruta es requerido",
+        "accountNumberRequired": "Numero de cuenta requerido",
+        "equalBothPasswords": "Asegurate que ambos campos de nuevo password son iguales"
+    },
+
+    "error": {
+        "serverError": "Server error.",
+        "6110": "Codigo de promocion invalido.",
+        "6111": "Falta codigo de promocion.",
+        "6161": "Nombre de usuario o contraseña incorrectos.",
+        "6153": "Token invalido.",
+        "6302": "No se pudo cambiar la contraseña. Revisa la contraseña actual.",
+        "7865": "The customer couldn't be loaded.",
+        "9856": "Another error..."
+    }
+}

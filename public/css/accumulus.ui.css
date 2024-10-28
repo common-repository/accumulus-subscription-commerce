@@ -1,0 +1,497 @@
+/**********************
+        General
+***********************/
+
+.acc-widget *{ -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+.acc-widget .ui-button{ margin: 0; }
+
+.acc-widget label.error{ padding: 2px;  color: red; }
+
+.acc-server-error { color: red; }
+
+.acc-widget .acc-content{ padding: 15px; }
+
+.acc-widget{ min-width: 250px; }
+
+.acc-widget .ui-widget-header.acc-title{ padding: 5px; }
+.acc-widget .acc-title{ margin: 7.5px 0 7.5px 0; }
+
+.acc-widget .ui-widget-header h3{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.acc-widget .ui-widget-header .ui-icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*.acc-widget legend{ padding: 0; }*/
+
+.acc-widget fieldset label.ui-state-highlight{ width: auto; }
+
+.acc-widget .error.ui-state-highlight{ display: block; /*margin: 12px 0 0 0;*/ } /*TODO: Review*/
+
+/*.acc-widget input, .acc-widget select{
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+}*/
+
+/*.acc-widget input, .acc-widget select{
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    border: 1px solid #cccccc;
+}*/
+
+/*.acc-widget .ui-button-primary{
+    color: white;
+    background-image: none;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}*/
+
+.acc-ellipsis{
+    white-space: nowrap;
+    overflow:hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+}
+
+/*.acc-widget label{ min-width: 170px; }*/
+
+/*.acc-controls{ text-align: right; margin: 7.5px 0; }*//*TODO:review*/
+.acc-controls{ text-align: right; padding: 7.5px 0; }
+
+.acc-server-error{ padding: 5px; display: none; }
+
+
+/**************************
+    Default Forms Style
+**************************/
+.acc-widget input,
+.acc-widget select{
+    margin: 0;
+}
+/* Match the style of disabled select elements with that of disabled input elements. */
+.acc-widget select:disabled {
+    background-color: rgb(235, 235, 228);
+}
+
+.acc-widget fieldset > * { float: left; }
+
+.acc-widget fieldset{
+    /*margin: 15px 0;*/
+    border: none;
+    /*padding: 0;*/
+    margin: 0;
+    padding: 7.5px 0;
+    /*padding-top: 7.5px;
+    padding-bottom: 7.5px;*/
+}
+
+.acc-widget fieldset label{
+    width: 30%;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+}
+
+.acc-small-input{ width: 4em; }
+
+/*input.acc-medium-input{ width: calc(70% - 2px); max-width: 200px; }*/
+input.acc-medium-input,
+select.acc-medium-input{ width: 70%; max-width: 200px; }
+
+/*input.acc-large-input{ width: calc(70% - 2px); }*/
+input.acc-large-input,
+select.acc-large-input{ width: 70%; }
+/*select.acc-large-input{ width: calc(70% - 0px); }*/
+
+/***************************************
+   Default Split Content  50/50
+****************************************/
+/* Use with ui-helper-clearfix */
+.acc-split-content > *{
+    /*width: calc(50% - 7.5px);*/ /*rest the sides padding,border & margin of the child*/
+    width: 50%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float: left;
+}
+
+.acc-split-content > *:first-child{ padding-right: 7.5px; }
+
+.acc-split-content > *:last-child{ padding-left: 7.5px; }
+
+/* Sets the split content functionality to every child. */
+.acc-split-children-content > * > *{
+    /*width: calc(50% - 7.5px);*/ /*rest the sides padding,border & margin of the child*/
+    width: 50%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float: left;
+}
+
+.acc-split-children-content > * > *:first-child{ padding-right: 7.5px; }
+
+.acc-split-children-content > * > *:last-child{ padding-left: 7.5px; }
+
+/**************************
+    Split Field Set
+**************************/
+.acc-left-field, .acc-right-field{
+    /*width: calc(50% - 7.5px);*/ /*rest the sides padding,border & margin*/
+    width: 50%;
+    /*margin:0;
+    padding:0;
+    border:0;*/
+    margin-right: 0;
+    margin-left: 0;
+    float:left;
+}
+
+.acc-widget .acc-left-field{ padding-right: 7.5px; }
+.acc-widget .acc-right-field{ padding-left: 7.5px; }
+
+.acc-widget .acc-right-field + *{ clear:both; } /*TODO: review*/
+
+/*--------------------------------------*/
+
+.acc-payment-applied-msg{ padding: 5px; }
+
+.acc-loader {
+    background: url(../images/ajax-loader.gif);
+    filter: Alpha(Opacity=80);
+    opacity: .80;
+    z-index: 101;
+    width: 29px;
+    height: 29px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: .0625em;
+    -webkit-border-radius: 2.25em;
+    border-radius: 2.25em;
+    display: none;
+}
+
+.acc-widget table{ width: 100%; }
+.acc-widget thead{ text-align: left; }
+.acc-widget th, td{ padding: 7.5px; }
+
+
+/**********************************
+        Balance
+***********************************/
+.acc-balance-view .acc-description-label{ max-width: 160px; }
+.acc-balance-view .acc-current-balance{ width:auto; }
+
+/**********************************
+        Profile
+***********************************/
+.acc-password-popup fieldset{ border: none; }
+.acc-password-popup .acc-large-input{ width: 100%; }
+
+/**********************************
+        Subscription List
+***********************************/
+.acc-no-subscription-items{ display: none; }
+.acc-cancel-subscription{ display: none; }
+.acc-subscription-items-title{ display: none; }
+
+/**********************************
+        Statement History
+***********************************/
+
+
+/**********************************
+        Payment Methods
+***********************************/
+.acc-bank-accounts h3,
+.acc-credit-cards h3,
+.acc-billing-agreements h3{ margin-bottom: 0; }
+
+.acc-credit-cards .acc-left-field, .acc-credit-cards .acc-right-field{ margin-top: 1em; }
+.acc-expires-title.acc-right-field{ text-align: right; padding-right: 35px; }
+
+.acc-credit-cards-list .acc-exp-date{ float: right; margin-right: 25px; }
+
+.acc-widget .acc-payment-methods-view .ui-accordion-header-icon{ right: .5em; left: inherit; }
+
+.acc-widget .acc-payment-methods-view .ui-accordion .ui-accordion-icons{padding-left: .7em}
+
+/*.acc-widget .acc-expiration-date-field label.acc-expiration-date-label{ display: block; }*/
+/*.acc-cvv-img{ margin-left: }*/
+
+.acc-card-type-img, .acc-bank-account-img,
+.acc-billing-agreement-img, .acc-credit-card-imgs img{ max-height: 20px; }
+
+.acc-billing-agreement-img{ max-width: 76px; }
+
+.acc-default-payment-method-img{ display: none; }
+
+.acc-credit-cards-list .acc-collapsible-title > img,
+.acc-bank-accounts-list .acc-collapsible-title > img,
+.acc-billing-agreements-list .acc-collapsible-title > img{
+    vertical-align: middle;
+}
+
+.acc-widget .list-item-padding{
+    padding: .7em 15px;
+}
+
+.acc-credit-card-edit-view fieldset label.acc-month-label,
+.acc-credit-card-edit-view fieldset label.acc-year-label{ display: none; }
+
+/*.acc-credit-card-edit-view .acc-expiration-date-field legend{ width: 30%; }*/
+.acc-credit-card-edit-view .acc-expiration-date-inputs{ width: 70%; }
+
+.acc-cvv-img{ margin-left: 10px; }
+
+.acc-reload-billing-agreements.ui-button-icon-only{ width: 25px; height: 25px; }
+.acc-reload-billing-agreements .ui-button-text{ padding: 0; }
+
+/**********************************
+        Usage Balances
+***********************************/
+.acc-usage-balances-list{ list-style-type: none; padding: 0; margin: 0; border: 1px solid #aaa; }
+.acc-usage-balances-list li{
+    padding: 7.5px 15px;
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+.acc-usage-balances-list li:last-child{ border-width: 0px; }
+
+/**********************
+        Portal
+***********************/
+
+/*.acc-plugin-container .acc-widget{ margin: 0 auto; }*/
+
+.acc-portal-header.acc-title{ overflow: hidden; margin: 0; }
+.acc-widget-list.acc-split-content > *{ padding: 0; }
+.acc-widget-list.acc-split-content > *:first-child{ width: 25%; }
+.acc-widget-list.acc-split-content > *:last-child{ width: 75%; }
+
+.acc-widget-menu { max-width: 300px; }
+
+.acc-choose-widget-msg{ text-align: center; }
+/*.acc-header-text{ max-width: 70% }*/
+
+.acc-logout-wrapper{ text-align: right; }
+
+.acc-customer-name{ /*max-width: 50%;*/ padding: .4em 1em; }
+
+
+.acc-widget.acc-portal/*,.acc-portal .acc-widget*/{ max-width: 100% }
+
+.acc-login-form{ display: none; max-width: 600px; margin: 0 auto; }
+.acc-login-form fieldset, .acc-reset-password-form fieldset { padding-left: 10px; }
+.acc-reset-password-form{ display: none; max-width: 600px; margin: 0 auto; }
+.acc-reset-password{ display: none; }
+.acc-change-password-form{ display: none; max-width: 600px; margin: 0 auto; }
+
+.acc-logout{ display: none; }
+
+.acc-widget .acc-captcha-field > * { float: none; }
+.acc-widget .acc-captcha-field label{ width: auto; }
+
+.acc-captcha-field{ display: none; }
+.acc-captcha-img{ display: block; }
+
+.acc-header-logo{ height: 22px; }
+
+.acc-portal-header h2 { margin-top: 5px; margin-bottom: 5px; display: inline-block; } /*TODO: review*/
+/*.acc-portal-header h2 { margin-top: 0; margin-bottom: 0px; display: inline-block; }*/
+.acc-portal-header input { float: right; }
+
+/*.acc-login-form .acc-controls { text-align: center; }*/
+
+.acc-customer-name{
+    display:none;
+    text-align: right;
+    margin: 0;
+}
+
+.acc-plugin-container{ padding: 15px 0 15px 15px; }
+.acc-plugin-container{ max-width: 700px; }
+
+.acc-widget-selected{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+/*TODO: review*/
+/*.acc-widget-selected {
+    background-color: rgba(255,255,255,0.7);
+}
+
+a.acc-widget-selected {
+    color: #1a1a1a;
+}*/
+
+.acc-customer-name {
+    font-size: smaller;
+    font-weight: normal;
+}
+
+.acc-logout-wrapper .ui-state-default{
+    font-size: smaller;
+    font-weight: normal;
+    padding: 3px;
+    position: relative;
+    top: 3px;
+}
+
+
+/*------------------------------------------------*/
+
+.acc-forgot-password { font-size: smaller; margin-left: 20px; }
+
+
+/**********************
+        Signup
+***********************/
+
+.acc-signup-view fieldset > * { float: none; }
+
+.acc-signup-view .acc-widget-title{ padding: 0; margin: 0 0 15px 0; }
+
+.acc-signup-form fieldset label{ width: auto; }
+
+.acc-widget .acc-expiration-date-field label{ display: none; }
+.acc-widget .acc-expiration-date-field label.acc-expiration-date-label{ display: block; }
+
+.acc-tc-field{ font-size: smaller; margin-top: 30px; }
+.acc-tc-field input{ vertical-align: middle; }
+
+.acc-signup-view fieldset .acc-small-input[type="text"],
+.acc-signup-view fieldset .acc-small-input{ width: 4em; }
+
+.acc-promotion-msg{ display: none; padding: 7.5px 0; text-align: center; }
+
+.acc-modal {
+  padding: 10px;
+}
+
+#acc-signup-recaptcha { margin-top: 20px; margin-bottom: 20px; }
+
+/*.acc-signup-view fieldset input[type="password"], .acc-signup-view fieldset input[type="text"]*/
+
+.acc-price-grid {
+  float: right;
+}
+
+.acc-price-details{
+    text-align: right;
+    padding: 7.5px;
+}
+
+.acc-price-details > div{ padding: 7.5px 0; }
+
+.acc-price-details > div > *:first-child{ padding: 0; }
+/*.acc-price-details > div > *:last-child{ padding: 0 15px 0 0; }*/
+
+.acc-signup-total{ font-weight: bold; }
+
+.acc-promotion-field{ text-align: right; }
+
+.acc-signup-view fieldset input[type="password"],
+.acc-signup-view fieldset input[type="text"]{ width: 100%; }
+/*.acc-signup-view fieldset input[type="text"]{ width: calc(100% - 4px); }*//*rest the sides padding,border & margin of the input*/
+
+/*.acc-signup-view fieldset select{ width: calc(100% - 2px); }*//*rest the sides padding,border & margin of the input*/
+.acc-signup-view fieldset select{ width: 100%; }
+
+.acc-widget .acc-promotion-field label{ display: none; }
+.acc-promotion-code{
+    max-width: 200px;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.acc-signup-discounts,
+.acc-signup-taxes{
+    display:none;
+}
+
+/*.acc-signup-view fieldset .acc-promotion-code{ width: calc(60% - 4px); }*/
+
+.payment-methods-view-content .acc-collapsible-title img,
+.acc-credit-card-imgs img,
+.acc-bank-account-img,
+.acc-paypal-img{ max-height: 20px; max-width: 76px; margin-top: 5px; margin-bottom: 5px; }
+
+.acc-credit-card-imgs img { margin-left: 5px;  float: right; }
+
+.acc-widget .acc-copy-address-field input{ vertical-align: middle; }
+.acc-widget .acc-copy-address-field label{ width: auto; }
+
+.acc-widget .acc-cvv-fieldset label{ display: block; }
+
+.acc-signup-view .acc-apply{ vertical-align: middle; }
+.acc-signup-view .acc-apply span{ padding: 0 15px; }
+
+.acc-cvv-image, .acc-cvv{ vertical-align: middle; }
+
+.acc-account-banner .ui-icon.ui-icon-person,
+.acc-ssl-banner .ui-icon.ui-icon-locked{ display: none; }
+
+.acc-header {width: 100%; }
+.acc-header.ui-accordion-header-collapsed { opacity: 0.5; }
+
+
+/* signup dialog styles */
+
+.ui-dialog {
+  min-width: 350px;
+  padding: 5px;
+  background: white;
+  border: solid 1px #444444
+}
+
+.ui-dialog-titlebar {
+  background: #444444;
+  color: white;
+  padding: 10px;
+}
+
+button.ui-dialog-titlebar-close {
+  display: none;
+}
+
+ul.acc-widget-menu {
+    display: grid;
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.acc-widget-menu li a {
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+}

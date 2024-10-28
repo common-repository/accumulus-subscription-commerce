@@ -1,0 +1,112 @@
+<div class="acc-portal-header acc-widget-title ui-widget-header acc-title acc-split-content ui-helper-clearfix">
+    <div>
+        <img class="acc-header-logo" />
+        <h2 class="acc-header-text" ></h2>
+    </div>
+    <div class="acc-logout-wrapper">
+        <div class="acc-customer-name acc-ellipsis"></div>
+        <input type="button" class="acc-logout" localize="logout" onclick="javascript:location.reload();" />
+    </div>
+</div>
+
+<div class="acc-portal-content">
+
+    <form class="acc-login-form ui-corner-all" >
+        <h2 class="acc-title" localize="login">Login</h2>
+        <div class="acc-server-error ui-state-error ui-corner-all"></div>
+        <fieldset>
+            <label for="acc-portal-login-username" class="acc-description-label" localize="username">Username:</label>
+            <input id="acc-portal-login-username" name="username" type="text" class="acc-username acc-large-input" required/>
+        </fieldset>
+        <fieldset>
+            <label for="acc-portal-login-password" class="acc-description-label" localize="password">Password:</label>
+            <input type="password" id="acc-portal-login-password" name="password" type="text" class="acc-password acc-large-input" required/>
+        </fieldset>
+        <div class="acc-controls">
+            <input type="submit" localize="login" name="login" value="Login" data-theme="a" class="acc-login acc-button-b ui-button-primary"/>
+            <a href="#" localize="forgotPassword" class="acc-forgot-password" value="Forgot your password?" />
+        </div>
+    </form>
+
+    <form class="acc-reset-password-form ui-corner-all" >
+        <h2 class="acc-title" localize="resetPassword">Login</h2>
+
+        <div class="acc-server-error ui-state-error ui-corner-all"></div>
+        <fieldset>
+            <label for="acc-portal-reset-password-username" localize="username">Username:</label>
+            <input id="acc-portal-reset-password-username" name="username" type="text" class="acc-username acc-large-input" required/>
+        </fieldset>
+        <fieldset class="acc-captcha-field">
+            <img class="acc-captcha-img" />
+            <label for="acc-portal-reset-password-captcha" localize="captcha">Catpcha:</label>
+            <input id="acc-portal-reset-password-captcha" name="captcha" type="text" class="acc-captcha-text acc-medium-input" required/>
+        </fieldset>
+        <div class="acc-controls">
+            <input type="submit" localize="reset" name="getCatpcha" value="Reset" class="acc-get-captcha ui-button-primary" />
+            <input type="submit" localize="reset" name="resetPassword" value="Reset" class="acc-reset-password ui-button-primary" />
+            <input type="button" localize="cancel" name="cancel" value="Cancel" class="acc-cancel"/>
+        </div>
+    </form>
+
+    <form class="acc-change-password-form ui-corner-all" >
+        <h2 class="acc-title" localize="changePassword">Change Password</h2>
+        <div class="acc-server-error ui-state-error ui-corner-all" ></div>
+        <fieldset>
+            <label for="acc-portal-new-password1" localize="newpassword1" >New Password:</label>
+            <input id="acc-portal-new-password1" name="new-password-1" type="password" class="acc-large-input" required/>
+        </fieldset>
+        <fieldset>
+            <label for="acc-portal-new-password2" localize="newpassword2" >New Password:</label>
+            <input id="acc-portal-new-password2" name="new-password-2" type="password" class="acc-large-input" required/>
+        </fieldset>
+        <div class="acc-controls">
+            <input type="submit" localize="change" class="acc-submit-password" data-inline="true" value="Change" />
+            <input type="button" localize="cancel" class="acc-cancel" data-inline="true" value="Cancel" />
+        </div>
+    </form>
+
+    <div class="acc-widget-list acc-split-content">
+        <div>
+            <ul class="acc-widget-menu">
+                <li class="acc-balance-selection">
+                    <a href="#acc-balance" localize="balance">Balance</a>
+                </li>
+                <li class="acc-profile-selection">
+                    <a href="#acc-profile" localize="profile">Profile</a>
+                </li>
+                <li class="acc-payment-methods-selection">
+                    <a href="#acc-payment-methods" localize="paymentMethods">Payment Methods</a>
+                </li>
+                <li class="acc-subscriptions-list-selection">
+                    <a href="#acc-subscriptions-list" localize="subscriptionsList">Subscription List</a>
+                </li>
+                <li class="acc-statement-history-selection">
+                    <a href="#acc-statement-history" localize="statementsHistory">Statements History</a>
+                </li>
+                <li class="acc-usage-balances-selection">
+                    <a href="#acc-usage-balances" localize="usageBalances">Usage Balances</a>
+                </li>
+                <li class="acc-usage-history-selection">
+                    <a href="#acc-usage-history" localize="usageHistory">Usage History</a>
+                </li>
+                <li class="acc-make-payment-selection">
+                    <a href="#acc-make-payment" localize="makePayment">Make Payment</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <!--
+        <div>
+        -->
+            <!--
+            <h4 class="acc-customer-name"></h4>
+            -->
+            <div class="acc-plugin-container"></div>
+        <!--
+        </div>
+        -->
+    </div>
+
+</div>
+

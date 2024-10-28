@@ -1,0 +1,109 @@
+<div class="acc-profile-edit-view ui-content acc-content">
+
+    <h2 class="acc-widget-title acc-title ui-corner-all" localize="profile">Profile</h2>
+
+    <form class="acc-profile-edit-form">
+
+        <div class="acc-server-error"></div>
+
+        <fieldset>
+            <label for="acc-profile-edit-name" localize="name">Name:</label>
+            <input id="acc-profile-edit-name" name="name" type="text" class="acc-profile-edit-name acc-large-input" required/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-company" localize="company">Company:</label>
+            <input id="acc-profile-edit-company" name="company" type="text" class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-title" localize="title">Title:</label>
+            <input id="acc-profile-edit-title" name="title" type="text" class="acc-large-input"/>
+        </fieldset>
+        <fieldset>
+            <label for="acc-profile-edit-email" localize="email">Email:</label>
+            <input id="acc-profile-edit-email" name="email" type="text" required class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-work-number" localize="work-number">Work Number:</label>
+            <input id="acc-profile-edit-work-number" name="work-number" type="text" class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-home-number" localize="home-number">Home Number:</label>
+            <input id="acc-profile-edit-home-number" name="home-number" type="text" class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-mobile" localize="mobile">Mobile:</label>
+            <input id="acc-profile-edit-mobile" name="mobile" type="text" class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-address1" localize="address1">Address:</label>
+            <input id="acc-profile-edit-address1" name="address1" type="text" class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-address2" localize="address2">Address:</label>
+            <input id="acc-profile-edit-address2" name="address2" type="text" class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-city" localize="city">City:</label>
+            <input id="acc-profile-edit-city" name="city" type="text" class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-postal-code" localize="postal-code">Postal Code:</label>
+            <input id="acc-profile-edit-postal-code" name="postal-code" type="text" class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-state" localize="state">State:</label>
+            <select id="acc-profile-edit-state" name="state" class="acc-large-input"></select>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-country" localize="country">Country:</label>
+            <select id="acc-profile-edit-country" name="country" required class="acc-large-input"></select>
+        </fieldset>
+
+        <fieldset>
+            <label for="acc-profile-edit-url" localize="url">URL:</label>
+            <input id="acc-profile-edit-url" name="url" type="text" class="acc-large-input"/>
+        </fieldset>
+
+        <fieldset class="acc-tax-information">
+            <label for="acc-edit-tax-number" localize="taxNumber">Tax Id:</label>
+            <input id="acc-edit-tax-number" name="taxNumber" type="text" class="acc-large-input" />
+        </fieldset>
+
+        <div class="acc-controls">
+            <input type="submit" class="acc-save" localize="save" value="Save"/>
+            <input type="button" class="acc-change-password" localize="changePassword" />
+            <input type="button" class="acc-cancel" localize="cancel" value="Cancel"/>
+        </div>
+
+    </form>
+
+    <div id="acc-popup-password" title="Change Password" class="acc-password-popup ui-corner-all">
+        <form class="acc-profile-edit-password-form">
+            <div class="acc-server-error"></div>
+            <fieldset>
+                <label for="acc-profile-edit-new-password1" localize="newpassword1">New Password:</label>
+                <input id="acc-profile-edit-new-password1" name="new-password-1" class="acc-large-input" type="password" required/>
+            </fieldset>
+            <fieldset>
+                <label for="acc-profile-edit-new-password2" localize="newpassword2">New Password:</label>
+                <input id="acc-profile-edit-new-password2" name="new-password-2" class="acc-large-input" type="password" required/>
+            </fieldset>
+            <div class="acc-controls">
+                <input type="submit" localize="change" class="acc-submit-password" value="Change" />
+                <input type="button" localize="cancel" class="acc-cancel" value="Cancel" />
+            </div>
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,86 @@
+/***** Fonts *****/
+
+@font-face {
+  font-family: Symbols;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/bowtie.woff) format('woff'),
+    url(../fonts/bowtie.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Segoe UI Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Segoe UI Light'), local('Open Sans Light'),
+    local('OpenSans-Light'),
+    url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2)
+      format('woff2');
+}
+@font-face {
+  font-family: 'Segoe UI Semilight';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Segoe UI Semilight'), local('Segoe UI'), local('Open Sans'),
+    local('OpenSans'),
+    url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2)
+      format('woff2');
+}
+@font-face {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Segoe UI'), local('Open Sans'), local('OpenSans'),
+    url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2)
+      format('woff2');
+}
+@font-face {
+  font-family: 'Segoe UI Semibold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Segoe UI Semibold'), local('Open Sans Semibold'),
+    local('OpenSans-Semibold'),
+    url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2)
+      format('woff2');
+}
+@font-face {
+  font-family: 'Segoe UI Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Segoe UI Bold'), local('Open Sans Bold'), local('OpenSans-Bold'),
+    url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2)
+      format('woff2');
+}
+@font-face {
+  font-family: 'Cambria';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cambria'), local('PT Serif Caption'), local('PTSerif-Caption'),
+    url(https://fonts.gstatic.com/s/ptserifcaption/v8/7xkFOeTxxO1GMC1suOUYWb6cM-LMFQwoMtZfMYS1DLM.woff2)
+      format('woff2');
+}
+
+/***** General *****/
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+[hidden] {
+  display: none !important;
+}
+
+body {
+  -ms-content-zooming: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  color: #202124;
+  cursor: default;
+  font: 16px/20px 'Segoe UI';
+  margin: 0;
+}
+iframe {
+  border: 0;
+}
+.error {
+  color: var(--error-color);
+}
